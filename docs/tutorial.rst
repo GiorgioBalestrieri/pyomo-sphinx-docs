@@ -3,32 +3,32 @@ Tutorial
 
 Follow the following steps:
 
-- set up Sphinx *optional*
-    - install Sphinx (pip or conda are very convenient) - 
+- set up Sphinx (*optional*)
+    - install Sphinx (pip or conda are very convenient)
     - initialize a docs folder (if not existing) by running :code:`sphinx-quickstart`
 - create your Pyomo model
 - generate model documentation
     - import your model and :func:`pyomo_sphinx_docs.get_pyomo_model_docs`
     - pass your model to :func:`pyomo_sphinx_docs.get_pyomo_model_docs` and get the .rst documentation as a string
     - save to file
-- build your project documentation through Sphinx *optional*
+
+    .. code-block:: python
+
+        # import needed to create Pyomo model
+        from diet import create_model
+
+        from pyomo_sphinx_docs import get_pyomo_model_docs
+
+        model = create_model() # create model
+        docs = get_pyomo_model_docs(model) # get .rst docs as str
+
+        # save to file
+        with open("docs/diet_model.rst", "w") as f:
+            f.write(docs)
+
+- build your project documentation through Sphinx (*optional*)
     - add your file to the docs :code:`toctree`
     - create your documentation by running :code:`make html`
-
-.. code-block:: python
-
-    # import needed to create Pyomo model
-    from diet import create_model
-
-    from pyomo_sphinx_docs import get_pyomo_model_docs
-
-    model = create_model() # create model
-
-    docs = get_pyomo_model_docs(model) # get .rst docs as str
-
-    # save to file
-    with open("docs/diet_model.rst", "w") as f:
-        f.write(docs)
 
 In-line math
 ~~~~~~~~~~~~
