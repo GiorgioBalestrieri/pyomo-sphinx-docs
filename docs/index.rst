@@ -8,6 +8,9 @@ Welcome to Pyomo Sphinx Docs's documentation!
 
 This project tries to automatically build documentation for a `Pyomo <https://pyomo.readthedocs.io/en/latest/>`_ model through `Sphinx <http://www.sphinx-doc.org/>`_.
 
+.. warning::
+    This project is experimental.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
