@@ -1,7 +1,7 @@
 How to use
 ==========
 
-This relies on `Sphinx <http://www.sphinx-doc.org/>`.
+This relies on `Sphinx <http://www.sphinx-doc.org/>`_.
 See the Sphinx documentation, in particular installation, quickstart and reStructuredText.
 
 .. note:: 
