@@ -1,5 +1,5 @@
 """
-pyomo_sphinx_docs.py
+main.py
 ====================
 
 Utilities to automatically generate Sphinx documentation

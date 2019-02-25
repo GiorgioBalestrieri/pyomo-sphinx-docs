@@ -5,5 +5,5 @@ Code
    :maxdepth: 2
    :caption: Contents:
 
-.. automodule:: pyomo_sphinx_docs
+.. automodule:: pyomo_sphinx_docs.main
     :members:
