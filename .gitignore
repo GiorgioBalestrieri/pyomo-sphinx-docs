@@ -4,4 +4,6 @@ __pycache__/
 /**/.ipynb_checkpoints/
 .vscode/
 /**/.vscode/
+*.egg-info/
+/**/*.egg-info/
 

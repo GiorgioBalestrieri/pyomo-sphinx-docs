@@ -1,8 +1,0 @@
-README.md
-pyomo_sphinx_docs/__init__.py
-pyomo_sphinx_docs/main.py
-pyomo_sphinx_docs.egg-info/PKG-INFO
-pyomo_sphinx_docs.egg-info/SOURCES.txt
-pyomo_sphinx_docs.egg-info/dependency_links.txt
-pyomo_sphinx_docs.egg-info/requires.txt
-pyomo_sphinx_docs.egg-info/top_level.txt
